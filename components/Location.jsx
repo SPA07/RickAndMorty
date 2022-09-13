@@ -37,11 +37,10 @@ const Location = () => {
             
             <div className="location-container">
                 <div className="attributes">
-                    <p><b>Name:</b> <br /> <br /><span>{location.name}</span></p>
-                    <p><b>Type:</b> <br /> <br />
-                    <span>{location.type}</span></p>
-                    <p><b>Dimension: <br /> <br /><span>{location.dimension}</span></b></p>
-                    <p><b>Residents:</b> <br/> <br/><span>{location.residents?.length}</span></p>
+                    <p><b>Name:</b> <br /><span>{location.name}</span></p>
+                    <p><b>Type:</b> <br /><span>{location.type}</span></p>
+                    <p><b>Dimension: </b><br /><span>{location.dimension}</span></p>
+                    <p><b>Residents:</b> <br/> <span>{location.residents?.length}</span></p>
                 </div>
             </div>
 
