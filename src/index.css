@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #05292E;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    background-image: url(./assets/images/Rick.jpg);
+    /* border: 1px solid #fff; */
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 1440px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 700;
+    color: #9119e7;
+}
+
+.header-container input {
+    border: 0;
+    border-radius: 10px;
+    background-color: #062226;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    align-self: center;
+    opacity: 10px;
+    font-size: 18px;
+}
+
+.btn-container {
+    border-radius: 10px;
+    background-color: #05292e;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-self: center;
+    border: 3px solid #062b31;
+    background-color: #06222678;
+    transition: all ease 100ms;
+    box-shadow: 0px 5px 0 #093036;
+}
+
+.btn-container i {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.btn-container:hover {
+    cursor: pointer;
+    color: #9635dadd;
+    opacity: 0.95;
+}
+
+.btn-container:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0 #14345a
+}
+
+.location-container {
+    border: 1px solid #062226;
+    border-radius: 10px;
+    background-color: #062226;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.attributes {
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.attributes p {
+    margin: 0 auto;
+}
+
+.data-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.data-container p {
+    margin: 0 auto;
+}
+
+.characters-container{
+    /* border: 1px solid #fff; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.characters-cards {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #9535dab9;
+    /* border: 1px solid #9535da4c; */
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    width: auto;
+    overflow: hidden;
+    box-shadow: rgba(109, 5, 255, 0.19) 0px 10px 20px, rgba(249, 249, 249, 0.23) 0px 6px 6px;
+    text-align: start;
+}
+
+.characters-cards p {
+    margin-left: 30px;
+}
+
+.characters-cards span {
+    color: #05292E;
+}
+
